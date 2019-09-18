@@ -35,8 +35,8 @@
             this.colorDlg = new System.Windows.Forms.ColorDialog();
             this.rtbText = new System.Windows.Forms.RichTextBox();
             this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
-            this.tslBtnFont = new System.Windows.Forms.ToolStripButton();
-            this.tlsBtnColor = new System.Windows.Forms.ToolStripButton();
+            this.tslbtnFont = new System.Windows.Forms.ToolStripButton();
+            this.tlsbtnColor = new System.Windows.Forms.ToolStripButton();
             this.statusStrip1.SuspendLayout();
             this.tlsMenu.SuspendLayout();
             this.SuspendLayout();
@@ -55,8 +55,8 @@
             // tlsMenu
             // 
             this.tlsMenu.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.tslBtnFont,
-            this.tlsBtnColor});
+            this.tslbtnFont,
+            this.tlsbtnColor});
             this.tlsMenu.Location = new System.Drawing.Point(0, 0);
             this.tlsMenu.Name = "tlsMenu";
             this.tlsMenu.Size = new System.Drawing.Size(274, 25);
@@ -78,23 +78,25 @@
             this.toolStripStatusLabel1.Size = new System.Drawing.Size(128, 17);
             this.toolStripStatusLabel1.Text = "3118주미림-폰트 변경";
             // 
-            // tslBtnFont
+            // tslbtnFont
             // 
-            this.tslBtnFont.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.tslBtnFont.Image = ((System.Drawing.Image)(resources.GetObject("tslBtnFont.Image")));
-            this.tslBtnFont.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.tslBtnFont.Name = "tslBtnFont";
-            this.tslBtnFont.Size = new System.Drawing.Size(23, 22);
-            this.tslBtnFont.Text = "toolStripButton1";
+            this.tslbtnFont.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.tslbtnFont.Image = ((System.Drawing.Image)(resources.GetObject("tslbtnFont.Image")));
+            this.tslbtnFont.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.tslbtnFont.Name = "tslbtnFont";
+            this.tslbtnFont.Size = new System.Drawing.Size(23, 22);
+            this.tslbtnFont.Text = "toolStripButton1";
+            this.tslbtnFont.Click += new System.EventHandler(this.TslBtnFont_Click);
             // 
-            // tlsBtnColor
+            // tlsbtnColor
             // 
-            this.tlsBtnColor.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.tlsBtnColor.Image = ((System.Drawing.Image)(resources.GetObject("tlsBtnColor.Image")));
-            this.tlsBtnColor.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.tlsBtnColor.Name = "tlsBtnColor";
-            this.tlsBtnColor.Size = new System.Drawing.Size(23, 22);
-            this.tlsBtnColor.Text = "toolStripButton2";
+            this.tlsbtnColor.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.tlsbtnColor.Image = ((System.Drawing.Image)(resources.GetObject("tlsbtnColor.Image")));
+            this.tlsbtnColor.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.tlsbtnColor.Name = "tlsbtnColor";
+            this.tlsbtnColor.Size = new System.Drawing.Size(23, 22);
+            this.tlsbtnColor.Text = "toolStripButton2";
+            this.tlsbtnColor.Click += new System.EventHandler(this.TlsBtnColor_Click);
             // 
             // Form1
             // 
@@ -125,8 +127,8 @@
         private System.Windows.Forms.ColorDialog colorDlg;
         private System.Windows.Forms.RichTextBox rtbText;
         private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel1;
-        private System.Windows.Forms.ToolStripButton tslBtnFont;
-        private System.Windows.Forms.ToolStripButton tlsBtnColor;
+        private System.Windows.Forms.ToolStripButton tslbtnFont;
+        private System.Windows.Forms.ToolStripButton tlsbtnColor;
     }
 }
 

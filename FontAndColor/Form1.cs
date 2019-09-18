@@ -15,5 +15,15 @@ namespace FontAndColor
         {
             InitializeComponent();
         }
+
+        private void TslBtnFont_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void TlsBtnColor_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
